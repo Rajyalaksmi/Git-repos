@@ -12,6 +12,7 @@ public class MyThread {
         public static void Thread2() {
                 for (int i = 0; i < 10; i++) {
                         Console.WriteLine("Thread2 {0}", i);
+                        Console.WriteLine("Thread2 {0}", i);
                 }
         }
 }
